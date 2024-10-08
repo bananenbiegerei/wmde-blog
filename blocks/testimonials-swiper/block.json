@@ -1,0 +1,13 @@
+{
+	"name": "acf/testimonials-swiper",
+	"title": "Testimonials",
+	"description": "Testimonials Swiper",
+	"category": "wmde-custom-blocks",
+	"icon": "testimonial",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "testimonials-swiper.php"
+	},
+	"align": "full"
+}

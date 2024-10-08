@@ -1,0 +1,17 @@
+.wp-block-table {
+	@apply rounded-xl p-10 border border-gray-200 mb-10 lg:mb-20;
+	table {
+		thead {
+			@apply border-none;
+			tr {
+
+				th {
+					@apply border-t-0 border-x-0 text-left px-0 py-4 border-b-2 border-gray-500;
+				}
+			}
+		}
+		td {
+			@apply border-t border-gray border-x-0 px-0 py-4;
+		}
+	}
+}

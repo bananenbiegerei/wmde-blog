@@ -1,0 +1,84 @@
+{
+    "key": "group_64118e9342647",
+    "title": "Post Type: Themen",
+    "fields": [
+        {
+            "key": "field_64118e9354be6",
+            "label": "Color for Theme",
+            "name": "color_for_theme",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string",
+            "translations": "copy_once"
+        },
+        {
+            "key": "field_6452b33eec2be",
+            "label": "Secondary Color",
+            "name": "secondary_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string",
+            "translations": "copy_once"
+        },
+        {
+            "key": "field_64522d516c6f3",
+            "label": "Has dark background color",
+            "name": "has_dark_background_color",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "translations": "copy_once",
+            "ui_on_text": "Yes",
+            "ui_off_text": "No",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "theme-releases"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1683141470
+}

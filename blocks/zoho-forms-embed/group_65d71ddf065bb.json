@@ -1,0 +1,69 @@
+{
+    "key": "group_65d71ddf065bb",
+    "title": "Block: Zoho Forms Embed",
+    "fields": [
+        {
+            "key": "field_65d71ddf98bfc",
+            "label": "Embed Code",
+            "name": "embed_code",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Embed zoho iframe here. Please make sure to use the WMDE Design template in zoho forms",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_65d74c81c33cd",
+            "label": "Form Height",
+            "name": "form_height",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Change the height of the form if needed",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "copy_once",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/zoho-forms-embed"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1708608959
+}

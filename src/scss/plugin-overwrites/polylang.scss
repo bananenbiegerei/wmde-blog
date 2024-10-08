@@ -1,0 +1,26 @@
+ul.language-switcher {
+	li {
+		&.current-lang {
+			@apply hidden;
+		}
+		a {
+			@apply uppercase  text-primary;
+		}
+	}
+}
+[lang="de-DE"] {
+	.show-for-de {
+		@apply block #{!important};	
+	}
+	.show-for-en {
+		@apply hidden #{!important};	
+	}
+}
+[lang="en-GB"] {
+	.show-for-de {
+		@apply hidden #{!important};	
+	}
+	.show-for-en {
+		@apply block #{!important};	
+	}
+}

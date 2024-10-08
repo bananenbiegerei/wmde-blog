@@ -1,0 +1,13 @@
+{
+	"name": "acf/accordion",
+	"title": "Accordion",
+	"description": "Accordion",
+	"category": "wmde-custom-blocks",
+	"icon": "menu-alt3",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "accordion.php"
+	},
+	"align": "full"
+}

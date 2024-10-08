@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"settings": {
+		"layout": {
+			"contentSize": "2000px",
+			"wideSize": "1100px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"gradients": [],
+			"customDuotone": false,
+			"palette": [
+				{ "name": "White", "slug": "white", "color": "#ffffff" },
+				{ "name": "Gray", "slug": "gray", "color": "rgb( 246, 246, 246)" },
+				{ "name": "Red", "slug": "red-50", "color": "rgb( 255, 240, 242)" },
+				{ "name": "Green", "slug": "green-50", "color": "rgb(240 253 245)" },
+				{ "name": "Blue", "slug": "primary-50", "color": "rgb( 229, 238, 255)" },
+				{ "name": "Neon", "slug": "neon", "color": "rgb(235 255 154)" },
+				{ "name": "wmde20", "slug": "wmde20", "color": "#A59DD8" },
+				{ "name": "wmde20 green", "slug": "wmde20-green", "color": "#7CA88B" },
+				{ "name": "wmde20 yellow", "slug": "wmde20-yellow", "color": "#FAE49B" },
+				{ "name": "wmde20 purple", "slug": "wmde20-purple", "color": "#A59DD8" }
+			]
+		},
+		"typography": {
+			"customFontSize": false,
+			"lineHeight": false,
+			"dropCap": false,
+			"fluid": false,
+			"fontStyle": false,
+			"fontWeight": false,
+			"letterSpacing": false,
+			"textDecoration": false,
+			"textTransform": false,
+			"fontSizes": [],
+			"fontFamilies": []
+		}
+	}
+}

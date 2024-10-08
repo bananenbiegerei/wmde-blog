@@ -1,0 +1,45 @@
+// Banner 
+.wt-cli-cookie-bar-container {
+	#cookie-law-info-bar {
+		@apply bg-white border border-primary p-3 rounded-xl shadow-xl font-normal max-h-[50vh] #{!important};
+		width: calc(100% - 4rem)!important;
+				br {
+					@apply h-0 hidden #{!important};
+				}
+		.cli-bar-btn_container {
+			@apply flex flex-col lg:flex-row gap-2 #{!important};
+		}
+		.cli-bar-message {
+			@apply mb-5;
+			br {
+				@apply h-0 hidden #{!important};
+			}
+		}
+	}
+}
+// Banner and Footer Link 
+.cli_action_button,
+.cli_settings_button,
+.cli_setting_save_button,
+#wt-cli-settings-btn {
+	@apply inline-flex items-center rounded-md border border-transparent bg-primary-900 px-1.5 py-2 text-base lg:px-2 lg:py-0.5 lg:text-lg text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-0 transition m-0 font-normal #{!important};
+}
+
+.cli_settings_button,
+#wt-cli-settings-btn {
+	@apply bg-white text-primary-700 border border-primary-700 hover:border-gray-800 hover:bg-white hover:text-gray-800 py-1 #{!important};
+}
+.site-footer {
+	.cli_settings_button {
+		@apply bg-white text-primary border-none hover:bg-white hover:text-primary-600 focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-0 px-1.5 py-0.5 text-base lg:px-2 lg:py-0.5 lg:text-lg #{!important};
+	}
+}
+// Settings overlay
+#cliSettingsPopup {
+	.cli-modal-dialog {
+		@apply font-normal;
+		.cli-tab-footer .wt-cli-privacy-accept-btn {
+			@apply inline-flex items-center rounded-md border border-transparent bg-primary-900 px-1.5 py-2 text-base lg:px-2 lg:py-0.5 lg:text-lg text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-0 transition m-0 font-normal #{!important};
+		}
+	}
+}

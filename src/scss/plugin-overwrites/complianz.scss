@@ -1,0 +1,74 @@
+.cmplz-cookiebanner {
+    @apply bg-primary text-secondary text-xs font-normal p-3 border-none text-xs left-6 lg:left-10 translate-x-0 min-w-[200px] shadow-none z-40 rounded-none bottom-[285px] lg:bottom-[315px]  h-36 max-h-fit #{!important};
+    a {
+        @apply text-secondary;
+    }
+    .cmplz-header {
+        @apply block #{!important}; 
+        .cmplz-title {
+            @apply block text-white text-xs font-normal  #{!important};  
+        }
+    }
+    .cmplz-message {
+        @apply text-secondary text-xs leading-none w-full #{!important}; 
+    }
+    .cmplz-buttons {
+        @apply flex-row #{!important};
+        .cc-btn {
+            @apply flex-none bg-primary text-xs px-0 py-0 rounded-none border-none text-secondary font-normal m-0 leading-none h-[20px] min-h-[20px] w-auto #{!important};
+        }
+    }
+    .cmplz-documents {
+        @apply sr-only;
+    }
+    .cmplz-body {
+        @apply text-secondary  w-auto min-w-[10px] #{!important};
+    }
+    .cmplz-categories {
+        @apply mb-3 w-[260px] #{!important};
+        .cmplz-category {
+            @apply bg-secondary text-primary text-xs #{!important};
+            .cmplz-category-header {
+                @apply py-2 #{!important};
+                .cmplz-always-active {
+                    @apply text-primary text-xs font-bold #{!important};
+                }
+                .cmplz-icon {
+                    @apply fill-primary #{!important};
+                    // svg {
+                    //     @apply h-3 w-3;
+                    // }
+                }
+                .cmplz-category-title {
+                    @apply text-primary text-xs #{!important};
+                }
+            }
+            // [type="checkbox"]:checked {
+            //     @apply bg-primary outline-none text-primary;
+            // }
+            .cmplz-description {
+                @apply text-primary text-xs #{!important};
+            }
+        }
+    }
+    // .cc-compliance.cc-highlight {
+    //     @apply flex space-x-3 #{!important};
+    // }
+    
+    
+    // .cc-category {
+    //    @apply text-secondary #{!important}; 
+    // }
+    // .cmplz-slider-checkbox {
+    //     input + .cmplz-slider {
+    //         @apply bg-secondary border border-secondary p-2 h-6 before:bg-secondary before:h-4 before:w-4 #{!important};
+    //     }
+    //     input:checked + .cmplz-slider {
+    //         @apply bg-primary #{!important}; 
+    //     }
+    // }
+    // .cmplz-square {
+    //     @apply fill-primary stroke-secondary #{!important}; 
+    // }
+    
+}

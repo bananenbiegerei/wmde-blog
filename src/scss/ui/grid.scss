@@ -1,0 +1,28 @@
+.container {
+	@apply max-w-screen-2xl mx-auto px-6;
+}
+.mobile-grid {
+	@apply grid grid-cols-2 xl:grid-cols-1 gap-10 xl:gap-0;
+}
+// refering to classes in containers.php
+.outer-container {
+	@apply grid grid-cols-12 container;
+}
+.default {
+	@apply col-span-12 lg:col-span-8 lg:col-start-3;
+}
+.wide {
+	@apply col-span-12;
+}
+.right {
+	@apply col-span-12 lg:col-span-8 lg:col-start-5;
+}
+
+.no-container-styles {
+	.default {
+		@apply col-start-1 col-span-12;
+	}
+	.outer-container {
+		@apply px-0;
+	}
+}

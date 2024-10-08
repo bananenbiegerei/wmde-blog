@@ -1,0 +1,11 @@
+:root {
+	--plyr-color-main: #1423ff;
+}
+.plyr.plyr--video {
+	.plyr__control.plyr__control--overlaid {
+		@apply rounded-none bg-black/50 border-4 border-black opacity-100 h-full w-full flex items-center justify-center;
+		svg {
+			@apply w-16 h-auto;
+		}
+	}
+}

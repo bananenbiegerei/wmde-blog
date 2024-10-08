@@ -1,0 +1,48 @@
+.comment {
+	@apply text-black rounded-xl overflow-hidden;
+
+	.children {
+		@apply list-none;
+		.comment {
+			@apply m-5 border-t rounded-none;
+		}
+	}
+
+	&:not(:first-child) {
+		@apply mt-10;
+	}
+
+	&-body {
+		@apply p-5;
+		.meta {
+		}
+
+		.comment-reply-link {
+			@apply btn no-underline;
+		}
+	}
+
+	.children {
+		@apply mt-10;
+	}
+
+	& &-respond {
+		@apply bg-white p-5;
+	}
+
+	&-reply-title {
+		@apply flex justify-between
+	}
+
+	#cancel-comment-reply-link {   
+		@apply btn no-underline btn-outline;
+	}
+
+	&-form-cookies-consent {
+		@apply flex gap-5 font-semibold;
+
+		input#wp-comment-cookies-consent {
+			@apply mt-2;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+// Fix for old blog posts pre Gutenberg
+// They have been modified to enclose them in containers
+// <div class="old_blog_outer"><div class="old_blog_inner"> [...] </div></div>
+
+.old_blog_outer {
+	@apply grid grid-cols-12 container;
+
+	.old_blog_inner {
+		@apply col-span-12 lg:col-span-8 lg:col-start-3;
+	}
+}

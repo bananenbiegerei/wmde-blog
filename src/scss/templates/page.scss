@@ -1,0 +1,17 @@
+.page-template-default:not(.home) {
+	.wp-block-image,
+	.XXbb-image-block {
+		@apply max-w-2xl mx-0;
+		img,
+		a {
+			@apply w-full;
+		}
+		figcaption {
+			@apply absolute top-0 w-full h-full;
+			sup {
+				writing-mode: vertical-lr;
+				@apply hidden lg:block absolute top-0 right-0 bg-secondary w-auto h-4/5 z-20 p-2 text-sm;
+			}
+		}
+	}
+}

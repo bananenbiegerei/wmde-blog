@@ -1,0 +1,29 @@
+.text-hover-effect:hover {
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	p {
+		@apply underline transition underline-offset-2 decoration-1;
+	}
+}
+
+.image-hover-effect {
+	@apply relative transition duration-150 ease-in-out;
+
+	&:hover {
+		.aspect-w-16.aspect-h-9 {
+			@apply after:transition after:duration-150 after:ease-in-out after:content-['_'] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-t after:from-white after:via-white/50 after:to-transparent after:opacity-50;
+		}
+	}
+
+	.image-hover-effect-simple:hover {
+		@apply transition duration-300;
+
+		img {
+			@apply opacity-50 transition duration-300;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.bb-facts-block {
+	> div {
+		height: 8rem;
+		div.text-6xl {
+			font-size: 3rem;
+		}
+		div.text-base {
+			font-size: 0.5rem;
+		}
+	}
+	p {
+		line-height: 0;
+	}
+}

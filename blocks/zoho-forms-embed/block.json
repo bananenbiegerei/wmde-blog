@@ -1,0 +1,15 @@
+{
+	"name": "acf/zoho-forms-embed",
+	"title": "Zoho Forms embed",
+	"description": "Nice way to embed Zoho Forms in your website.",
+	"category": "wmde-custom-blocks",
+	"icon": "feedback",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "zoho-forms-embed.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

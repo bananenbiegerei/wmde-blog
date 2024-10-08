@@ -1,0 +1,95 @@
+{
+	"key": "group_5d68cc1211885",
+	"title": "Block: Projects Swiper",
+	"fields": [
+		{
+			"key": "field_5d68cc200a7cc",
+			"label": "Projects",
+			"name": "projects",
+			"aria-label": "",
+			"type": "post_object",
+			"instructions": "",
+			"required": 1,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"post_type": ["projects"],
+			"taxonomy": "",
+			"return_format": "object",
+			"multiple": 1,
+			"translations": "copy_once",
+			"allow_null": 0,
+			"ui": 1
+		},
+		{
+			"key": "field_63ea21f026dc8",
+			"label": "Background",
+			"name": "background",
+			"aria-label": "",
+			"type": "select",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {
+				"white": "White",
+				"gray": "Gray"
+			},
+			"default_value": "white",
+			"return_format": "value",
+			"multiple": 0,
+			"translations": "copy_once",
+			"allow_null": 0,
+			"ui": 0,
+			"ajax": 0,
+			"placeholder": ""
+		},
+		{
+			"key": "field_643e95a756931",
+			"label": "Minimal mode",
+			"name": "hide_button_to_all_projects",
+			"aria-label": "",
+			"type": "true_false",
+			"instructions": "Hide button to all projects, swiper headline, and projects intro text.",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"message": "",
+			"default_value": 0,
+			"translations": "copy_once",
+			"ui_on_text": "Yes",
+			"ui_off_text": "No",
+			"ui": 1
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "block",
+				"operator": "==",
+				"value": "acf/projects-swiper"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": "",
+	"active": true,
+	"description": "",
+	"show_in_rest": 0,
+	"modified": 1681823178
+}

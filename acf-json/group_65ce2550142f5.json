@@ -1,0 +1,238 @@
+{
+    "key": "group_65ce2550142f5",
+    "title": "Post Type: Timeline Item",
+    "fields": [
+        {
+            "key": "field_65ce25509a38a",
+            "label": "Date",
+            "name": "date",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6641c94b50d42",
+            "label": "Audio Posts",
+            "name": "audio_posts",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Eintrag hinzufügen",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_65df63b6d7362",
+                    "label": "Audio File",
+                    "name": "audio_file",
+                    "aria-label": "",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "translations": "copy_once",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ".mp3",
+                    "parent_repeater": "field_6641c94b50d42"
+                },
+                {
+                    "key": "field_65e96bcd2f0fc",
+                    "label": "Audio Source Text",
+                    "name": "audio_source_text",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "translations": "translate",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6641c94b50d42"
+                },
+                {
+                    "key": "field_65e96bf12f0fd",
+                    "label": "Audio Source Image",
+                    "name": "audio_source_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "translations": "copy_once",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "thumbnail",
+                    "parent_repeater": "field_6641c94b50d42"
+                }
+            ]
+        },
+        {
+            "key": "field_6641c90f50d41",
+            "label": "Video Posts",
+            "name": "video_posts",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Eintrag hinzufügen",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_65f809b6960ba",
+                    "label": "Video Title",
+                    "name": "video_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "translations": "translate",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6641c90f50d41"
+                },
+                {
+                    "key": "field_65df63dcd7363",
+                    "label": "Video",
+                    "name": "video",
+                    "aria-label": "",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "translations": "copy_once",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "parent_repeater": "field_6641c90f50d41"
+                }
+            ]
+        },
+        {
+            "key": "field_65df54d6b4e94",
+            "label": "Custom Color",
+            "name": "custom_color",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "white": "white",
+                "green": "green",
+                "yellow": "yellow",
+                "purple": "purple"
+            },
+            "default_value": "white",
+            "return_format": "value",
+            "translations": "copy_once",
+            "allow_null": 0,
+            "layout": "horizontal"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "timeline-item"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "featured_image"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1715588318
+}

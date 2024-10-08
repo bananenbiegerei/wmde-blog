@@ -1,0 +1,13 @@
+{
+	"name": "acf/projects-swiper",
+	"title": "Projects Swiper",
+	"description": "Projects Swiper",
+	"category": "wmde-custom-blocks",
+	"icon": "slides",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "projects-swiper.php"
+	},
+	"align": "full"
+}

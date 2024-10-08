@@ -1,0 +1,15 @@
+{
+	"name": "acf/latest-publications",
+	"title": "Latest Publications",
+	"description": "List of latest publications",
+	"category": "wmde-custom-blocks",
+	"icon": "media-document",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "latest-publications.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

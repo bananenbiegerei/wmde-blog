@@ -1,0 +1,13 @@
+{
+	"name": "acf/logo-graveyard",
+	"title": "Logos Gallery",
+	"description": "Logos Gallery",
+	"category": "wmde-custom-blocks",
+	"icon": "grid-view",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "logo-graveyard.php"
+	},
+	"align": "full"
+}

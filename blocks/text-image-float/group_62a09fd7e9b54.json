@@ -1,0 +1,164 @@
+{
+    "key": "group_62a09fd7e9b54",
+    "title": "Block: Text Image Float",
+    "fields": [
+        {
+            "key": "field_62a09fee1ea8d",
+            "label": "Bild",
+            "name": "bild",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "translations": "copy_once",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_6596b8a114726",
+            "label": "Image Size",
+            "name": "image_size",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "You can set image size here. Value will be set in Pixels",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 340,
+            "translations": "copy_once",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_62a0a0101ea8e",
+            "label": "Text",
+            "name": "text",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "delay": 0,
+            "translations": "translate",
+            "tabs": "all",
+            "toolbar": "wmde",
+            "media_upload": 0
+        },
+        {
+            "key": "field_62a0a01e1ea8f",
+            "label": "Bild Ausrichtung",
+            "name": "bild_ausrichtung",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "links": "links",
+                "rechts": "rechts"
+            },
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "translations": "copy_once"
+        },
+        {
+            "key": "field_63b614efa457c",
+            "label": "Link auf Bild",
+            "name": "link_auf_bild",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "translations": "copy_once"
+        },
+        {
+            "key": "field_64a282ccff2f5",
+            "label": "Image Zoom",
+            "name": "image_zoom",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63b614efa457c",
+                        "operator": "==empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "translations": "copy_once",
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/text-image-float"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1704379692
+}

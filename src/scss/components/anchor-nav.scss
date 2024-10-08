@@ -1,0 +1,5 @@
+#anchor-nav .swiper-wrapper li {
+	&.active {
+		@apply bg-gray-200;	
+	}
+}

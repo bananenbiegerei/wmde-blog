@@ -1,0 +1,100 @@
+{
+    "key": "group_643e8e2b750c4",
+    "title": "Post Type: Page",
+    "fields": [
+        {
+            "key": "field_643e8e2babb79",
+            "label": "Call To Actions in Header",
+            "name": "call_to_actions_in_header",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Eintrag hinzufügen",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_6529110f991fa",
+                    "label": "Link",
+                    "name": "link",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "translations": "copy_once",
+                    "parent_repeater": "field_643e8e2babb79"
+                }
+            ]
+        },
+        {
+            "key": "field_659c20f4c6117",
+            "label": "Page Logo",
+            "name": "page_logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "If there is a custom logo – e.g. Wikimove – you could add that here.\r\nPlease also use only for page template with big image.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_643e8e2babb79",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "translations": "copy_once",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1704732892
+}

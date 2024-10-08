@@ -1,0 +1,9 @@
+@import '../../../node_modules/swiper/swiper';
+
+[class*='swiper-block'] {
+	@apply overflow-hidden;
+	.swiper-pagination {
+		font-variant-numeric: tabular-nums;
+		@apply text-base;
+	}
+}

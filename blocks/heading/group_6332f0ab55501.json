@@ -1,0 +1,336 @@
+{
+    "key": "group_6332f0ab55501",
+    "title": "Block: Headline",
+    "fields": [
+        {
+            "key": "field_66604b6c9249e",
+            "label": "Content",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6332f0b132592",
+            "label": "Headline",
+            "name": "headline",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Headline placeholder. Add content here.",
+            "placeholder": "Headline placeholder. Add content here.",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_66604b815c7e0",
+            "label": "Style",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6332f0c432593",
+            "label": "Level",
+            "name": "level",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "h2": "h2",
+                "h3": "h3",
+                "h4": "h4",
+                "h5": "h5",
+                "h6": "h6"
+            },
+            "default_value": "h2",
+            "return_format": "value",
+            "translations": "copy_once",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_63f3464e0b9b4",
+            "label": "Style",
+            "name": "style",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_6399a788bde81",
+                    "label": "Size",
+                    "name": "headline_size",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "default",
+                        "text-xs": "xs",
+                        "text-sm": "sm",
+                        "h6": "paragraph",
+                        "h5": "h5",
+                        "h4": "h4",
+                        "h3": "h3",
+                        "h2": "h2",
+                        "h1": "h1"
+                    },
+                    "default_value": "default : default",
+                    "return_format": "value",
+                    "translations": "copy_once",
+                    "allow_null": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_63e3a8189c006",
+                    "label": "Background",
+                    "name": "bg_color",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6332f0b132592",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_63e3b4bc78fbb"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 1,
+                    "prefix_name": 1
+                },
+                {
+                    "key": "field_64242f1a595e0",
+                    "label": "Text",
+                    "name": "text_color",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6332f0b132592",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_642400595d82a"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 1,
+                    "prefix_name": 1
+                },
+                {
+                    "key": "field_6447895af16b2",
+                    "label": "Alignment",
+                    "name": "alignment",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "wide": "Wide"
+                    },
+                    "default_value": "default",
+                    "return_format": "value",
+                    "translations": "copy_once",
+                    "allow_null": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_66604beebc14f",
+                    "label": "Uppercase",
+                    "name": "uppercase",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "translations": "copy_once",
+                    "ui_on_text": "Uppercase",
+                    "ui_off_text": "Default",
+                    "ui": 1
+                }
+            ]
+        },
+        {
+            "key": "field_66604b915c7e1",
+            "label": "Interaction",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64494997675a0",
+            "label": "Headline Link",
+            "name": "headline_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "translations": "copy_once"
+        },
+        {
+            "key": "field_63ef9861a9a68",
+            "label": "Anchor Title",
+            "name": "anchor_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_666a911484844",
+            "label": "Hide",
+            "name": "hide",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Hide if headline is only needed for anchor nav",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "translations": "copy_once",
+            "ui_on_text": "yes",
+            "ui_off_text": "no",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/heading"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1718260038
+}

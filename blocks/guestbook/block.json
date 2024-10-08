@@ -1,0 +1,15 @@
+{
+	"name": "acf/guestbook",
+	"title": "Guestbook",
+	"description": "Guestbook for Timeline",
+	"category": "wmde-custom-blocks",
+	"icon": "book",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "guestbook.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

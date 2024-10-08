@@ -1,0 +1,101 @@
+{
+    "key": "group_659c2a08954ff",
+    "title": "Post Type: Page, Big Header Image",
+    "fields": [
+        {
+            "key": "field_659c2a086e892",
+            "label": "Header Image Position Vertical",
+            "name": "header_image_position_vertical",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "top": "Top",
+                "center": "Center",
+                "bottom": "Bottom"
+            },
+            "default_value": "top : Top",
+            "return_format": "value",
+            "translations": "copy_once",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_659c2b376e893",
+            "label": "Header Image Position Horizontal",
+            "name": "header_image_position_horizontal",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "default_value": "Left",
+            "return_format": "value",
+            "translations": "copy_once",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_659e6454bbc89",
+            "label": "Page Logo",
+            "name": "page_logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "If there is a specific logo for that page it can be placed on the header image.\r\nAs needed for Wikimove start page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "translations": "copy_once",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "templates\/template-image-header.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1704879385
+}

@@ -1,0 +1,15 @@
+{
+	"name": "acf/latest-wikimove-podcasts",
+	"title": "Latest Wikimove Podcasts",
+	"description": "List of latest Wikimove Podcasts",
+	"category": "wmde-custom-blocks",
+	"icon": "media-audio",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "latest-wikimove-podcasts.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

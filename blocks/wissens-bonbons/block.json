@@ -1,0 +1,15 @@
+{
+	"name": "acf/wissens-bonbons",
+	"title": "Wissens bonbons",
+	"description": "Custom posts by WMDE authors with tipps amd tricks",
+	"category": "wmde-custom-blocks",
+	"icon": "format-status",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "bonbons.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

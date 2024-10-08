@@ -1,0 +1,15 @@
+{
+	"name": "acf/card",
+	"title": "Card",
+	"description": "Card Block",
+	"category": "wmde-custom-blocks",
+	"icon": "index-card",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "card.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

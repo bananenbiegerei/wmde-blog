@@ -1,0 +1,13 @@
+.wp-block-button__link {
+	@apply btn;
+}
+
+// Apply btn style to core/file blocks:
+.wp-block-file {
+	& > a {
+		@apply text-2xl;
+	}
+	.wp-block-file__button {
+		@apply btn;
+	}
+}

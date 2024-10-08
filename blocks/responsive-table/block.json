@@ -1,0 +1,13 @@
+{
+	"name": "acf/responsive-table",
+	"title": "Responsive Table",
+	"description": "Table block optimized for mobile",
+	"category": "wmde-custom-blocks",
+	"icon": "editor-table",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "responsive-table.php"
+	},
+	"align": "full"
+}

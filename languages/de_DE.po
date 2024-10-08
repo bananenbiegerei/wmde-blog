@@ -1,0 +1,684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WMDE 2023 Theme\n"
+"POT-Creation-Date: 2023-08-17 14:35+0200\n"
+"PO-Revision-Date: 2023-08-17 14:36+0200\n"
+"Last-Translator: Éric Leclercq\n"
+"Language-Team: Éric Leclercq\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: 404.php:6
+msgid "Seite nicht gefunden."
+msgstr ""
+
+#: 404.php:7
+msgid "Leider konnten wir die gesuchte Seite nicht finden."
+msgstr ""
+
+#: blocks/card-publication/card-publication.php:44
+#: blocks/latest-publications/latest-publications.php:34
+msgid "Download"
+msgstr ""
+
+#: blocks/card/card.php:20
+msgid "Missing Link!"
+msgstr ""
+
+#: blocks/card/card.php:138
+msgid "Missing Link Title!"
+msgstr ""
+
+#: blocks/featured-events/featured-events.php:3 tribe/events/v2/list.php:33
+msgid "Veranstaltungen"
+msgstr ""
+
+#: blocks/init.php:77
+msgid "Custom Blocks"
+msgstr ""
+
+#: blocks/latest-posts/latest-posts.php:49
+msgid "Alle Artikel"
+msgstr ""
+
+#: blocks/newsletter/newsletter.php:18 blocks/newsletter/newsletter.php:24
+#: template-parts/newsletter-signup-form-minimal.php:7
+#: template-parts/newsletter-signup-form-minimal.php:13
+msgid "E-Mail:"
+msgstr ""
+
+#: blocks/newsletter/newsletter.php:28
+msgid "Vorname:"
+msgstr ""
+
+#: blocks/newsletter/newsletter.php:32
+msgid "Nachname:"
+msgstr ""
+
+#: blocks/newsletter/newsletter.php:36
+#: template-parts/newsletter-signup-form-minimal.php:17
+msgid "Anmelden"
+msgstr ""
+
+#: blocks/projects-swiper/projects-swiper.php:18
+msgid "Projekte"
+msgstr ""
+
+#: blocks/projects-swiper/projects-swiper.php:45
+msgid "Alle Projekte"
+msgstr ""
+
+#: blocks/projects-swiper/projects-swiper.php:71
+msgid "Projects Swiper"
+msgstr ""
+
+#: blocks/team-members/functions.php:6
+msgid "Team Members"
+msgstr ""
+
+#: blocks/team-members/functions.php:6
+msgid "Team Member"
+msgstr ""
+
+#: blocks/testimonials-swiper/testimonials-swiper.php:50
+msgid "Testimonials Swiper"
+msgstr ""
+
+#: blocks/theme/theme.php:35 blocks/theme/theme.php:40
+msgid "Theme"
+msgstr "Thema"
+
+#: blocks/theme/theme.php:58
+#, fuzzy
+#| msgid "Theme"
+msgid "Zum Thema"
+msgstr "Themenbereich"
+
+#: blocks/wikimedia-commons-media/wikimedia-commons-media.php:21
+msgid "Error: Unsupported or missing media"
+msgstr ""
+
+#: category.php:9
+#, fuzzy, php-format
+#| msgid "Categories"
+msgid "Kategorie: %s"
+msgstr "Kategorien"
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+msgid "No comments yet"
+msgstr "Noch keine Kommentare"
+
+#: comments.php:31
+msgid "You must be"
+msgstr ""
+
+#: comments.php:31
+msgid "logged in"
+msgstr ""
+
+#: comments.php:32
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:38
+msgid "Leave a comment"
+msgstr "Hinterlasse ein Kommentar"
+
+#. translators: 1: User name, 2: Edit user link, 3: Logout URL.
+#: comments.php:46
+#, php-format
+msgid ""
+"Logged in as <a href=\"%2$s\">%1$s</a><br><a class=\"button margin-top-1\" "
+"href=\"%3$s\">%4$s</a>"
+msgstr ""
+
+#: comments.php:51
+msgid "Log out"
+msgstr ""
+
+#: comments.php:59
+msgid "The comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: footer.php:16
+msgid "Spendenservice"
+msgstr ""
+
+#: footer.php:22
+msgid "Kontakt"
+msgstr ""
+
+#: functions/comments-functions.php:15
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/comments-functions.php:19
+msgid "by"
+msgstr ""
+
+#: functions/comments-functions.php:19
+msgid "on"
+msgstr ""
+
+#: functions/comments-functions.php:19
+msgid "at"
+msgstr ""
+
+#: functions/custom-posts.php:8 template-parts/breadcrumbs.php:23
+msgid "Projects"
+msgstr ""
+
+#: functions/custom-posts.php:9
+msgid "Project"
+msgstr ""
+
+#: functions/custom-posts.php:22
+msgid "Testimonials"
+msgstr ""
+
+#: functions/custom-posts.php:23
+msgid "Testimonial"
+msgstr ""
+
+#: functions/custom-posts.php:35
+msgid "Publikationen"
+msgstr ""
+
+#: functions/custom-posts.php:36
+msgid "Publikation"
+msgstr ""
+
+#: functions/custom-posts.php:47
+msgctxt "Post Type General Name"
+msgid "Pressemitteilungen"
+msgstr ""
+
+#: functions/custom-posts.php:48
+msgctxt "Post Type Singular Name"
+msgid "Pressemitteilung"
+msgstr ""
+
+#: functions/custom-posts.php:70
+msgid "Custom Post Type für Themen"
+msgstr ""
+
+#: functions/custom-posts.php:72
+#, fuzzy
+#| msgid "Theme"
+msgctxt "Post Type General Name"
+msgid "Themen"
+msgstr "Themenbereich"
+
+#: functions/custom-posts.php:73
+#, fuzzy
+#| msgid "Theme"
+msgctxt "Post Type Singular Name"
+msgid "Thema"
+msgstr "Themenbereich"
+
+#: functions/custom-taxonomies.php:4
+msgid "Project Types"
+msgstr ""
+
+#: functions/custom-taxonomies.php:5
+msgid "Project Type"
+msgstr ""
+
+#: functions/custom-taxonomies.php:6
+msgid "All Project Types"
+msgstr ""
+
+#: functions/custom-taxonomies.php:7
+msgid "Edit Project Type"
+msgstr ""
+
+#: functions/custom-taxonomies.php:8
+msgid "View Project Type"
+msgstr ""
+
+#: functions/custom-taxonomies.php:9
+msgid "Update Project Type"
+msgstr ""
+
+#: functions/custom-taxonomies.php:10
+msgid "Add New Project Type"
+msgstr ""
+
+#: functions/custom-taxonomies.php:11
+msgid "New Project Type Name"
+msgstr ""
+
+#: functions/custom-taxonomies.php:27
+msgid "Team sections"
+msgstr ""
+
+#: functions/custom-taxonomies.php:28
+msgid "Team section"
+msgstr ""
+
+#: functions/custom-taxonomies.php:47
+msgid "Formats"
+msgstr "Formate"
+
+#: functions/custom-taxonomies.php:48
+msgid "Format"
+msgstr "Format"
+
+#: functions/custom-taxonomies.php:68
+#, fuzzy
+#| msgid "Theme"
+msgid "Thema"
+msgstr "Themenbereich"
+
+#: functions/custom-taxonomies.php:69
+#, fuzzy
+#| msgid "Theme"
+msgid "Themen"
+msgstr "Themenbereich"
+
+#: functions/menu.php:11
+msgid "Footer"
+msgstr ""
+
+#: functions/menu.php:23
+msgid "Please edit the menus on the <a href=\""
+msgstr ""
+
+#: index.php:64
+msgid "Zeigt"
+msgstr ""
+
+#: index.php:66
+msgid "bis"
+msgstr ""
+
+#: index.php:68
+msgid "von"
+msgstr ""
+
+#: index.php:70
+msgid "Artikeln"
+msgstr ""
+
+#: search.php:5
+#, php-format
+msgid "Suchergebnisse für: %s"
+msgstr ""
+
+#: search.php:38
+msgid "Nichts gefunden"
+msgstr ""
+
+#: search.php:40
+msgid ""
+"Es tut uns leid, aber nichts passte zu Ihren Suchbegriffen. Bitte versuchen "
+"Sie es noch einmal mit anderen Suchbegriffen."
+msgstr ""
+
+#: single-tribe_event_series.php:12
+msgid "Alle Veranstaltungen"
+msgstr ""
+
+#: single.php:10
+msgid "zurück"
+msgstr ""
+
+#: template-parts/header-top/titlebar_content.php:24
+msgid "donate"
+msgstr ""
+
+#: template-parts/header-top/titlebar_content.php:31
+msgid "Mitmachen"
+msgstr ""
+
+#: template-parts/newsletter-signup-form-minimal.php:2
+msgid "Newlsetter Anmeldung"
+msgstr ""
+
+#: template-parts/newsletter-signup-form-minimal.php:27
+#: template-parts/newsletter-signup-form-minimal.php:40
+msgid "DSGVO Hinweis"
+msgstr ""
+
+#: template-parts/newsletter-signup-form-minimal.php:43
+msgid ""
+"Indem ich meine E-Mail-Adresse eintrage, erkläre ich mich damit "
+"einverstanden, dass Wikimedia mich aufgrund meiner Einwilligung (Art. 6 Abs. "
+"1 lit. a) DSGVO) per E-Mail bis auf Widerruf über Aktuelles informiert und "
+"die hierzu erforderlichen Datenverarbeitungen vornimmt. Ich kann meine "
+"Einwilligung jederzeit mit Wirkung für die Zukunft gegenüber Wikimedia "
+"widerrufen.\n"
+"                    Nähere Informationen zur Datenverarbeitung bei Wikimedia "
+"und zu meinen Rechten finde ich unter <a href=\"https://www.wikimedia.de/"
+"datenschutz/\">www.wikimedia.de/datenschutz/</a>."
+msgstr ""
+
+#: template-parts/newsletter-signup-form-minimal.php:49
+msgid "Close"
+msgstr ""
+
+#: template-parts/redesign-feedback.php:40
+msgid "schliessen"
+msgstr ""
+
+#: template-parts/search-modal.php:35
+msgid "Confirm"
+msgstr ""
+
+#: tribe-events/modules/map-basic.php:32
+#, php-format
+msgid "Google maps iframe displaying the address to %s"
+msgstr ""
+
+#: tribe-events/modules/map-basic.php:33
+msgid "Venue location map"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:54
+#: tribe/events/blocks/classic-event-details.php:52
+#: tribe/events/blocks/parts/details.php:54
+msgid "Time:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:62
+#: tribe/events/blocks/parts/details.php:63
+msgid "Details"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:71
+#: tribe-events/modules/meta/details.php:96
+#: tribe/events/blocks/parts/details.php:78
+#: tribe/events/blocks/parts/details.php:104
+msgid "Start:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:76
+#: tribe-events/modules/meta/details.php:104
+#: tribe/events/blocks/parts/details.php:84
+#: tribe/events/blocks/parts/details.php:112
+msgid "End:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:86
+#: tribe-events/modules/meta/details.php:117
+#: tribe/events/blocks/parts/details.php:94
+#: tribe/events/blocks/parts/details.php:125
+msgid "Date:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:147
+#: tribe/events/blocks/parts/details.php:145
+msgid "Cost:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:171
+#: tribe/events/blocks/parts/details.php:176
+#, php-format
+msgid "%s Tags:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:44
+#: tribe-events/modules/meta/venue.php:46
+#: tribe/events/blocks/parts/organizer.php:58
+msgid "Phone:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:55
+#: tribe/events/blocks/parts/organizer.php:69
+msgid "Email:"
+msgstr ""
+
+#: tribe-events/single-event.php:81 tribe/events/single-event/back-link.php:18
+#, php-format
+msgctxt "%s Events plural label"
+msgid "All %s"
+msgstr ""
+
+#: tribe-events/single-event.php:156 tribe/events/single-event/footer.php:21
+#, php-format
+msgid "%s Navigation"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/components/clear-button.php:30
+msgid "Clear"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/components/dropdown.php:38
+msgid "Select"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/components/events-bar/filter-button.php:22
+msgid "Show filters"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/components/events-bar/filter-button.php:26
+msgid "Hide filters"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/components/filter.php:80
+msgid "Open filter"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/components/filter.php:87
+#: tribe/events-filterbar/v2_1/components/filter.php:121
+msgid "Close filter"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/components/filter.php:96
+#: tribe/events-filterbar/v2_1/components/pill-button.php:52
+#: tribe/events-filterbar/v2_1/components/pill.php:40
+msgid "Remove filters"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/filter-bar.php:58
+msgid "Filters"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/filter-bar.php:65
+msgid ""
+"Changing any of the form inputs will cause the list of events to refresh "
+"with the filtered results."
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/filter-bar/actions.php:28
+msgid "Done"
+msgstr ""
+
+#: tribe/events-filterbar/v2_1/filter-bar/selections.php:27
+msgid "Your selections"
+msgstr ""
+
+#: tribe/events-pro/v2/summary.php:36 tribe/events/v2/list.php:49
+msgid "Loading..."
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/cost.php:30
+msgid "Sold out"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/cost.php:38
+#, php-format
+msgid "Get %1$s"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/cost.php:49
+#, php-format
+msgid "%1$s now"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/date/all-day.php:22
+msgctxt "Label for an all-day event."
+msgid "All day"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/date/multiday-end.php:25
+#, php-format
+msgctxt "\"until\" as in \"from DATE until DATE\""
+msgid "Until %1$s"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/date/multiday-start.php:25
+#, php-format
+msgctxt "\"onwards\" as in \"from TIME onwards\""
+msgid "%1$s onwards"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/date/recurring.php:31
+msgid "Recurring"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/date-group/event/title/featured.php:29
+#: tribe/events-pro/v2/summary/date-group/event/title/featured.php:34
+#: tribe/events/v2/list/event/date/featured.php:27
+#: tribe/events/v2/list/event/date/featured.php:32
+msgid "Featured"
+msgstr ""
+
+#. translators: %s: Event (plural or singular).
+#: tribe/events-pro/v2/summary/nav/next-disabled.php:16
+#: tribe/events-pro/v2/summary/nav/next-disabled.php:19
+#: tribe/events-pro/v2/summary/nav/next.php:18
+#: tribe/events-pro/v2/summary/nav/next.php:21
+#: tribe/events-pro/v2/summary/top-bar/nav/next-disabled.php:15
+#: tribe/events-pro/v2/summary/top-bar/nav/next.php:17
+#: tribe/events/v2/list/nav/next-disabled.php:17
+#: tribe/events/v2/list/nav/next-disabled.php:20
+#: tribe/events/v2/list/nav/next.php:19 tribe/events/v2/list/nav/next.php:22
+#: tribe/events/v2/list/top-bar/nav/next-disabled.php:15
+#: tribe/events/v2/list/top-bar/nav/next.php:17
+#, php-format
+msgid "Next %1$s"
+msgstr ""
+
+#. translators: %s: Event (plural or singular).
+#: tribe/events-pro/v2/summary/nav/prev-disabled.php:16
+#: tribe/events-pro/v2/summary/nav/prev-disabled.php:19
+#: tribe/events-pro/v2/summary/nav/prev.php:18
+#: tribe/events-pro/v2/summary/nav/prev.php:21
+#: tribe/events-pro/v2/summary/top-bar/nav/prev-disabled.php:15
+#: tribe/events-pro/v2/summary/top-bar/nav/prev.php:17
+#: tribe/events/v2/list/nav/prev-disabled.php:16
+#: tribe/events/v2/list/nav/prev-disabled.php:19
+#: tribe/events/v2/list/nav/prev.php:19 tribe/events/v2/list/nav/prev.php:22
+#: tribe/events/v2/list/top-bar/nav/prev-disabled.php:15
+#: tribe/events/v2/list/top-bar/nav/prev.php:17
+#, php-format
+msgid "Previous %1$s"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/top-bar/datepicker.php:34
+#: tribe/events-pro/v2/summary/top-bar/datepicker.php:35
+#: tribe/events/v2/list/top-bar/datepicker.php:34
+#: tribe/events/v2/list/top-bar/datepicker.php:35
+msgid "Click to toggle datepicker"
+msgstr ""
+
+#: tribe/events-pro/v2/summary/top-bar/datepicker.php:77
+#: tribe/events/v2/list/top-bar/datepicker.php:77
+msgid "Select date."
+msgstr ""
+
+#: tribe/events/blocks/event-datetime.php:86
+msgid "All day"
+msgstr ""
+
+#: tribe/events/blocks/event-tags.php:19
+msgid "Tags"
+msgstr ""
+
+#: tribe/events/blocks/parts/details.php:183
+#: tribe/events/blocks/parts/organizer.php:80
+msgid "Website:"
+msgstr ""
+
+#: tribe/events/blocks/parts/subscribe-list.php:24
+msgid "Zum Kalender hinzufügen"
+msgstr ""
+
+#: tribe/events/single-event/recurring-description.php:17
+msgid "Recurring event"
+msgstr ""
+
+#: tribe/events/single-event/recurring-description.php:26
+msgid "see all"
+msgstr ""
+
+#: tribe/events/single-event/title.php:16
+msgid "Veranstaltung"
+msgstr ""
+
+#: tribe/events/v2/components/loader.php:22
+msgid "Loading view."
+msgstr ""
+
+#: tribe/events/v2/components/subscribe-links/list.php:24
+msgid "Subscribe to calendar"
+msgstr ""
+
+#: tribe/events/v2/components/subscribe-links/single-event-list.php:26
+msgid "Add to calendar"
+msgstr ""
+
+#: tribe/events/v2/list/event/venue.php:23
+msgctxt "Address separator"
+msgid ", "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "WMDE 2023 Theme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://bananenbiegerei.de/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bananenbiegerei"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://bananenbiegerei.de"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Archives"
+msgstr ""
+
+#~ msgid "Register"
+#~ msgstr "Anmelden"
+
+#, fuzzy
+#~| msgid "Theme"
+#~ msgid "Alle Themen"
+#~ msgstr "Themenbereich"
+
+#, fuzzy
+#~| msgid "Themes"
+#~ msgid "Themen ansehen"
+#~ msgstr "Themenbereiche"
+
+#, fuzzy
+#~| msgid "Themes"
+#~ msgid "Themen-Liste"
+#~ msgstr "Themenbereiche"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"

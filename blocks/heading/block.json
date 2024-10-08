@@ -1,0 +1,15 @@
+{
+	"name": "acf/heading",
+	"title": "Headline",
+	"description": "Basic Block for Headlines",
+	"category": "wmde-custom-blocks",
+	"icon": "heading",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "heading.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

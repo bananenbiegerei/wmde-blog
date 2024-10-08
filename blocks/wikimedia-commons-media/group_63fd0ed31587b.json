@@ -1,0 +1,139 @@
+{
+	"key": "group_63fd0ed31587b",
+	"title": "Block: Wikimedia Commons Media",
+	"fields": [
+		{
+			"key": "field_63fd0ed3745ae",
+			"label": "Media File Name or URL",
+			"name": "media_url",
+			"aria-label": "",
+			"type": "url",
+			"instructions": "The filename (<code>File:Image of a sunset.jpg</code>) or URL (<code>https://commons.wikimedia.org/wiki/File:Image_of_a_sunset.jpg</code>) as found on <a href=\"https://commons.wikimedia.org/\">Wikimedia Commons</a>.",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"translations": "copy_once",
+			"placeholder": ""
+		},
+		{
+			"key": "field_66d5795d10058",
+			"label": "Description",
+			"name": "description",
+			"aria-label": "",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"translations": "translate",
+			"maxlength": "",
+			"placeholder": "",
+			"prepend": "",
+			"append": ""
+		},
+		{
+			"key": "field_63fdd8c0a5f23",
+			"label": "Style",
+			"name": "style",
+			"aria-label": "",
+			"type": "group",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"layout": "table",
+			"sub_fields": [
+				{
+					"key": "field_63fdd8d2f7973",
+					"label": "Rounded",
+					"name": "rounded",
+					"aria-label": "",
+					"type": "true_false",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": 0,
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"message": "",
+					"default_value": 0,
+					"translations": "copy_once",
+					"ui_on_text": "",
+					"ui_off_text": "",
+					"ui": 1
+				},
+				{
+					"key": "field_63fe0acf6fed0",
+					"label": "Alignment",
+					"name": "alignment",
+					"aria-label": "",
+					"type": "clone",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": 0,
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"clone": ["field_63fe09e518224"],
+					"display": "seamless",
+					"layout": "block",
+					"prefix_label": 0,
+					"prefix_name": 0
+				}
+			]
+		},
+		{
+			"key": "field_646b1ddad234b",
+			"label": "Image Link",
+			"name": "image_link",
+			"aria-label": "",
+			"type": "link",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"return_format": "url"
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "block",
+				"operator": "==",
+				"value": "acf/wikimedia-commons-media"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": "",
+	"active": true,
+	"description": "",
+	"show_in_rest": 0,
+	"modified": 1725266313
+}

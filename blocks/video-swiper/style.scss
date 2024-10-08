@@ -1,0 +1,10 @@
+.bb-video-swiper-block {
+	.plyr {
+		@apply w-auto h-full lg:h-[480px];
+		.plyr__control.plyr__control--overlaid {
+			svg {
+				@apply hidden;
+			}
+		}
+	}
+}

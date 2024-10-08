@@ -1,0 +1,15 @@
+{
+	"name": "acf/facts",
+	"title": "Facts",
+	"description": "A list of facts",
+	"category": "wmde-custom-blocks",
+	"icon": "info",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "facts.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

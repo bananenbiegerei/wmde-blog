@@ -1,0 +1,33 @@
+//FIXME: need some cleanup here
+
+// Domains
+#navmenu_desktop_domains {
+	a {
+		&.current {
+			// Current domain or top-level page
+		}
+	}
+}
+
+// Menu items in dropdown
+#navmenu_desktop_dropdown {
+	li {
+		&.current {
+			// Current page
+		}
+		&.current {
+			@apply text-primary-500;
+		}
+	}
+}
+
+// Dropdown animations (could not get them to work with AlpineJS)
+#navmenu_desktop_dropdown {
+	& > div.invisible {
+		opacity: 0;
+	}
+	& > div.visible {
+		opacity: 1;
+		transition: opacity 0.2s;
+	}
+}

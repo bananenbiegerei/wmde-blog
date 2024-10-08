@@ -1,0 +1,15 @@
+.pagination {
+	@apply flex items-center;
+	li {
+		@apply border-l border-y first:rounded-l-lg last:rounded-r-lg border-r overflow-hidden;
+		a {
+			@apply no-underline;
+		}
+		.page-numbers {
+			@apply min-h-[2.5rem] min-w-[2.5rem] flex justify-center items-center text-primary;
+			&.current {
+				@apply bg-gray-200;
+			}
+		}
+	}
+}

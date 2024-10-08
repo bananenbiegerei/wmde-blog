@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* UI Basic components */
+@import './ui/*';
+
+/* Components */
+@import './components/*';
+
+/* Gutenberg overwrites */
+@import './gutenberg-overwrites/*';
+
+/* Plugins overwrites */
+@import 'plugin-overwrites/*';
+
+/* Templates */
+@import './templates/*';
+
+/* ACF blocks */
+@import '../../blocks/**/style.scss';

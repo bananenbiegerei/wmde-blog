@@ -1,0 +1,13 @@
+{
+	"name": "acf/newsletter-forum-offene-ki",
+	"title": "Newsletter Registration Form offene KI",
+	"description": "Newsletter Registration Form",
+	"category": "wmde-custom-blocks",
+	"icon": "email",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "newsletter-forum-offene-ki.php"
+	},
+	"align": "full"
+}

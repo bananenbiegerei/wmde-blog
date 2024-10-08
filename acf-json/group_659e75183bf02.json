@@ -1,0 +1,46 @@
+{
+    "key": "group_659e75183bf02",
+    "title": "Post Type: Podcasts",
+    "fields": [
+        {
+            "key": "field_659e7518587d2",
+            "label": "Embeded Player",
+            "name": "embeded_player",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "podcast"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1704883632
+}

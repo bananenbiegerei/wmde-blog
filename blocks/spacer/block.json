@@ -1,0 +1,13 @@
+{
+	"name": "acf/spacer",
+	"title": "Spacer",
+	"description": "Different Spaces to make nice and regulated white spaces",
+	"category": "wmde-custom-blocks",
+	"icon": "editor-expand",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "spacer.php"
+	},
+	"align": "full"
+}

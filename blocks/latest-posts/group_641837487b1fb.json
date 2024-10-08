@@ -1,0 +1,74 @@
+{
+    "key": "group_641837487b1fb",
+    "title": "Block: Latest Posts",
+    "fields": [
+        {
+            "key": "field_64183749b83ec",
+            "label": "Site",
+            "name": "site",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "Wikimedia (1)"
+            },
+            "default_value": 1,
+            "return_format": "value",
+            "multiple": 0,
+            "translations": "copy_once",
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6418375eb83ed",
+            "label": "Number of Posts",
+            "name": "count",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "translations": "copy_once",
+            "min": 4,
+            "max": 32,
+            "placeholder": "",
+            "step": 4,
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/latest-posts"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1679329020
+}

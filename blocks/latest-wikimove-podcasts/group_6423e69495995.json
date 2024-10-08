@@ -1,0 +1,80 @@
+{
+    "key": "group_6423e69495995",
+    "title": "Block: Latest Wikimove Podcasts",
+    "fields": [
+        {
+            "key": "field_65804ccdabd87",
+            "label": "Amount",
+            "name": "amount",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "specific number": "specific number",
+                "all": "all"
+            },
+            "default_value": "specific number",
+            "return_format": "value",
+            "translations": "copy_once",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_65804d1babd88",
+            "label": "specific amount",
+            "name": "specific_amount",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_65804ccdabd87",
+                        "operator": "==",
+                        "value": "specific number"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "translations": "copy_once",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/latest-wikimove-podcasts"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1702907359
+}

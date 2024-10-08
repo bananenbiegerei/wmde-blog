@@ -1,0 +1,54 @@
+{
+    "key": "group_66e2b254acd90",
+    "title": "Block: Wissens Bonbons",
+    "fields": [
+        {
+            "key": "field_66e2b2a1e50c6",
+            "label": "Bonbon",
+            "name": "bonbon",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "bonbon"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type"
+            ],
+            "return_format": "object",
+            "translations": "copy_once",
+            "min": "",
+            "max": "",
+            "elements": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/wissens-bonbons"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1727082440
+}

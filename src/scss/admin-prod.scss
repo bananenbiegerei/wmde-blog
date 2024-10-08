@@ -1,0 +1,15 @@
+body.acf-admin-field-groups.view-sync span.sync {
+	display: none;
+}
+
+body.acf-admin-field-groups.view-sync .check-column {
+	display: none;
+}
+
+body.acf-admin-field-groups.view-sync .actions.bulkactions {
+	display: none;
+}
+
+body.acf-admin-field-groups.view-sync .acf-json.column-acf-json strong::after {
+	content: ' but disabled for Prod';
+}

@@ -1,0 +1,18 @@
+#navmenu_mobile {
+	.item_closed {
+		.close {
+			@apply hidden;
+		}
+		.open {
+			@apply block;
+		}
+	}
+	.item_open{
+		.close {
+			@apply block;
+		}
+		.open {
+			@apply hidden;
+		}
+	}
+}

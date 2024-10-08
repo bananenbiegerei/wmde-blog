@@ -1,0 +1,384 @@
+// Unstyled
+.btn {
+    @apply rounded-md inline-flex flex-shrink-0 cursor-pointer select-none flex-wrap items-center justify-start border-transparent text-left transition duration-200 ease-out text-xl leading-none;
+    //@apply min-h-12 h-12 px-4;
+    @apply px-2.5 py-1.5;
+
+    /* disabled */
+    &-disabled,
+    &[disabled],
+    &:disabled {
+        @apply pointer-events-none;
+    }
+
+    svg {
+        @apply h-8 w-8;
+    }
+
+    &.btn-xs {
+        @apply px-1.5 py-0.5 text-sm;
+
+        svg {
+            @apply icon-xs;
+        }
+    }
+
+    &.btn-sm {
+        @apply px-1.5 py-0.5 text-base lg:px-2 lg:py-0.5 lg:text-base;
+
+        svg {
+            @apply icon-sm;
+        }
+    }
+
+    &.btn-lg {
+        @apply px-2 py-1 text-xl lg:px-2.5 lg:py-1 lg:text-2xl;
+
+        svg {
+            @apply icon-lg;
+        }
+    }
+
+    &.btn-xl {
+        @apply px-2 py-1 text-2xl lg:px-3 lg:py-1.5 lg:text-3xl;
+
+        svg {
+            @apply icon-lg;
+        }
+    }
+}
+
+/* group */
+.btn-group {
+    @apply inline-flex flex-wrap;
+
+    &>input[type="radio"].btn {
+        @apply appearance-none;
+    }
+
+    &>input[type="radio"].btn:before {
+        content: attr(data-title);
+    }
+}
+
+/* radio input and checkbox as button */
+.btn:is(input[type="checkbox"]),
+.btn:is(input[type="radio"]) {
+    @apply w-auto appearance-none;
+}
+
+.btn:is(input[type="checkbox"]):after,
+.btn:is(input[type="radio"]):after {
+    @apply content-[attr(aria-label)];
+}
+
+// Styled
+// hover + active color changes around 4-5 steps
+.btn {
+    @apply gap-2 no-underline font-sans font-robotonormal border;
+    animation: button-pop var(--animation-btn, 0.25s) ease-out;
+
+    &:active:hover,
+    &:active:focus {
+        animation: button-pop 0s ease-out;
+        transform: scale(var(--btn-600-scale, 0.98));
+    }
+
+    /* default btn */
+    & {
+        @apply border-primary bg-primary text-white outline-primary-700 no-underline hover:border-primary-500 hover:bg-primary-500;
+
+        &.btn-active {
+            @apply border-primary-500 bg-primary-500;
+        }
+
+        &:focus-visible {
+            @apply outline outline-2 outline-offset-2;
+        }
+    }
+
+    /* Menu */
+    &-menu {
+        @apply rounded-md inline-flex select-none flex-wrap items-center justify-start border-transparent text-left transition duration-200 ease-out leading-none text-base p-3 bg-transparent text-black font-alt font-medium hover:bg-gray hover:border-gray;
+
+        &.current {
+            @apply text-primary-500;
+        }
+    }
+
+    /* brand colors */
+    &-primary {
+        @apply border-primary bg-primary text-white outline-primary hover:border-primary-500 hover:bg-primary-500;
+
+        &.btn-active {
+            @apply border-primary-500 bg-primary-500;
+        }
+    }
+
+    &-secondary {
+        @apply border-gray bg-gray text-black outline-gray hover:border-gray-200 hover:bg-gray-200;
+
+        &.btn-active {
+            @apply border-black bg-black;
+        }
+    }
+
+        &-neutral {
+            @apply border-black bg-black text-white outline-black hover:border-gray-700 hover:bg-gray-700;
+
+            &.btn-active {
+                @apply border-black bg-black;
+            }
+        }
+
+    &-accent,
+    &-neon {
+        @apply border-neon bg-neon text-neon-900 outline-neon;
+
+        @media (hover: hover) {
+            &:hover {
+                @apply border-neon-400 bg-neon-400;
+            }
+        }
+
+        &.btn-active {
+            @apply border-neon-400 bg-neon-400;
+        }
+    }
+
+    &-disabled {
+        @apply border-gray bg-gray text-gray-700 outline-gray;
+
+        @media (hover: hover) {
+            &:hover {
+                @apply border-gray-600 bg-gray-600;
+            }
+        }
+
+        &.btn-active {
+            @apply border-gray-600 bg-gray-600;
+        }
+    }
+
+    /* btn with state colors */
+
+    &-success {
+        @apply border-green bg-green text-white outline-green hover:border-green-500 hover:bg-green-500;
+
+        &.btn-active {
+            @apply border-green bg-green;
+        }
+    }
+
+    &-warning {
+        @apply border-orange bg-orange text-white outline-orange hover:border-orange-400 hover:bg-orange-400;
+
+        &.btn-active {
+            @apply border-orange bg-orange;
+        }
+    }
+
+    &-error,
+    &-red {
+        @apply border-red bg-red text-white outline-red hover:border-red-400 hover:bg-red-400;
+
+        &.btn-active {
+            @apply border-red bg-red;
+        }
+    }
+
+    /* btn variants */
+    &-ghost {
+        @apply border border-transparent bg-transparent text-current shadow-none outline-current hover:bg-primary-200 hover:border-opacity-0 hover:bg-opacity-20;
+
+        &.btn-active {
+            @apply bg-primary-600 border-opacity-0 bg-opacity-20;
+        }
+
+        &.btn-secondary {
+            @apply text-gray-800 hover:border-gray-500 hover:bg-gray-500 hover:text-white;
+
+            &.btn-active {
+                @apply border-secondary-600 bg-secondary-600 text-secondary-700;
+            }
+        }
+
+        &.btn-accent,
+        &.btn-neon {
+            @apply text-neon-800 hover:border-neon hover:bg-neon;
+
+            &.btn-active {
+                @apply border-neon-600 bg-neon-600 text-neon-700;
+            }
+        }
+
+        &.btn-success {
+            @apply text-green hover:border-green hover:bg-green hover:text-white;
+
+            &.btn-active {
+                @apply border-green bg-green text-white;
+            }
+        }
+
+        &.btn-warning {
+            @apply text-orange hover:border-orange hover:bg-orange hover:text-white;
+
+            &.btn-active {
+                @apply border-orange bg-orange text-white;
+            }
+        }
+
+        &.btn-error,
+        &.btn-red {
+            @apply text-red hover:border-red hover:bg-red hover:text-white;
+
+            &.btn-active {
+                @apply border-red bg-red text-white;
+            }
+        }
+    }
+
+    &-link {
+        @apply text-primary border-transparent bg-transparent underline shadow-none outline-current;
+
+        @media (hover: hover) {
+            &:hover {
+                @apply border-transparent bg-transparent underline;
+            }
+        }
+
+        &.btn-active {
+            @apply border-transparent bg-transparent underline;
+        }
+    }
+
+    /* outline */
+    &-outline {
+        @apply text-primary border-current bg-transparent shadow-none hover:border-primary-700 hover:bg-primary-700 hover:text-white;
+
+        &.btn-active {
+            @apply border-primary-700 bg-primary-700 text-white;
+        }
+
+        &.btn-neutral {
+            @apply text-black hover:border-black hover:bg-gray-200 hover:text-black;
+
+            &.btn-active {
+                @apply border-secondary-600 bg-secondary-600 text-secondary-700;
+            }
+        }
+
+                &.btn-secondary {
+                    @apply text-gray-800 hover:border-gray-500 hover:bg-gray-500 hover:text-white;
+
+                    &.btn-active {
+                        @apply border-secondary-600 bg-secondary-600 text-secondary-700;
+                    }
+                }
+
+        &.btn-accent,
+        &.btn-neon {
+            @apply text-neon-800 hover:border-neon hover:bg-neon;
+
+            &.btn-active {
+                @apply border-neon-600 bg-neon-600 text-neon-700;
+            }
+        }
+
+        &.btn-success {
+            @apply text-green hover:border-green hover:bg-green hover:text-white;
+
+            &.btn-active {
+                @apply border-green bg-green text-white;
+            }
+        }
+
+        &.btn-warning {
+            @apply text-orange hover:border-orange hover:bg-orange hover:text-white;
+
+            &.btn-active {
+                @apply border-orange bg-orange text-white;
+            }
+        }
+
+        &.btn-error,
+        &.btn-red {
+            @apply text-red hover:border-red hover:bg-red hover:text-white;
+
+            &.btn-active {
+                @apply border-red bg-red text-white;
+            }
+        }
+    }
+
+    &-expanded {
+        @apply w-full;
+    }
+
+    &-circle {
+        @apply rounded-full;
+    }
+
+    /* disabled */
+    &.btn-disabled,
+    &[disabled],
+    &:disabled {
+        @apply bg-gray text-primary-700 border-opacity-0 bg-opacity-20 text-opacity-20;
+    }
+
+    @media (hover: hover) {
+
+        &-disabled:hover,
+        &[disabled]:hover,
+        &:disabled:hover {
+            @apply bg-gray text-primary-700 border-opacity-0 bg-opacity-20 text-opacity-20;
+        }
+    }
+}
+
+/* group */
+.btn-menu-section {
+    @apply text-sm bg-transparent text-black font-alt font-bold uppercase border-none hover:bg-transparent hover:text-primary-800 rounded-md;
+}
+
+.btn-group {
+    @apply gap-2;
+    //     &>input[type="radio"]:checked.btn,
+    //     &>.btn-active {
+    //         @apply border-primary bg-primary text-white;
+
+    //         &:focus-visible {
+    //             @apply outline-primary outline outline-2;
+    //         }
+    //     }
+}
+
+/* radio input and checkbox as button */
+.btn:is(input[type="checkbox"]:checked),
+.btn:is(input[type="radio"]:checked) {
+    @apply border-primary bg-primary text-primary-700;
+
+    @media (hover: hover) {
+        &:hover {
+            @apply border-primary-500 bg-primary-500;
+        }
+    }
+
+    &:focus-visible {
+        @apply outline-primary;
+    }
+}
+
+@keyframes button-pop {
+    0% {
+        transform: scale(var(--btn-600-scale, 0.98));
+    }
+
+    40% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

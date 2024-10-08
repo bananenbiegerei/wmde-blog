@@ -1,0 +1,80 @@
+// some old artiles are styled with strong tag
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-alt leading-tight mb-2 font-medium;
+}
+h1,
+.h1 {
+	@apply text-2xl lg:text-5xl;
+}
+h2,
+.h2 {
+	@apply text-2xl lg:text-3xl;
+}
+h3,
+.h3 {
+	@apply text-xl lg:text-2xl;
+}
+h4,
+.h4 {
+	@apply text-lg lg:text-xl;
+}
+h5,
+.h5 {
+	@apply text-base lg:text-lg;
+}
+h6,
+.h6 {
+	@apply text-sm lg:text-base;
+}
+p,
+ul:not([class]),
+ol:not([class]) {
+	@apply leading-normal text-lg lg:text-xl font-robotonormal mb-6 max-w-4xl;
+}
+.topline {
+	@apply uppercase font-bold font-alt text-sm text-primary;
+}
+
+.main-content {
+	p a,
+	ul a,
+	ol a,
+	a.link
+	 {
+		@apply underline transition underline-offset-2 decoration-1 hover:text-primary-300 transition;
+	}
+}
+
+
+strong {
+	@apply font-semibold;
+}
+
+.bb-cta-block,
+.bb-newsletter-block {
+	em {
+		@apply bg-primary text-white not-italic px-1;
+	}
+}
+
+// Make the paragraphs inside a block inherit typography
+// Useful when we don't control the output
+.text-inherit,
+.text-inherit p,
+.text-inherit ul,
+.text-inherit ol {
+	font-size: inherit;
+}
+
+abbr {
+	@apply no-underline;
+}
+
+cite {
+	@apply not-italic;
+}

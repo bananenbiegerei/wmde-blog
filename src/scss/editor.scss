@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './ui/icons';
+@import './ui/typography';
+@import './ui/buttons';
+// @import './components/*';
+// @import './gutenberg-overwrites/*';
+@import '../../blocks/**/style.scss';
+
+html :where(.editor-styles-wrapper) {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-medium font-alt;
+	}
+}
+
+// Apply container width to all blocks
+html :where(.wp-block) {
+	@apply max-w-screen-2xl mx-auto px-6;
+}
+
+// Specific settings for blocks in editor
+html :where(.wp-block) {
+	@import '../../blocks/**/editor.scss';
+}
+
+// ACF
+.edit-post-meta-boxes-area #poststuff .stuffbox > h3,
+.edit-post-meta-boxes-area #poststuff h2.hndle,
+.edit-post-meta-boxes-area #poststuff h3.hndle {
+	font-weight: 400;
+	padding: 16px;
+	font-size: inherit;
+}
+
+.editor-styles-wrapper,
+:where(.editor-styles-wrapper) {
+	@apply container font-sans bg-transparent;
+	.bb-facts-block {
+		> div {
+			height: 8rem;
+			div.text-6xl {
+				font-size: 3rem;
+			}
+			div.text-base {
+				font-size: 0.5rem;
+			}
+		}
+		p {
+			line-height: 0;
+			@apply font-sans;
+		}
+	}
+
+	.bb-spacer-block {
+		@apply after:content-['_spacer'] after:absolute after:top-2 after:right-8 after:bg-gray-200 after:py-1 after:px-3 text-xs after:rounded-full after:block border border-gray-200 rounded-xl border-dotted;
+	}
+}
+
+// Missing somehow...?
+// Doesn't seem to affect layout on site but it breaks the layout in the editor for text-image-float
+.clearfix {
+	overflow: auto;
+}

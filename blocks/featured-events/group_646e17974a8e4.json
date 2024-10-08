@@ -1,0 +1,47 @@
+{
+    "key": "group_646e17974a8e4",
+    "title": "Block: Featured Events",
+    "fields": [
+        {
+            "key": "field_646e179768ab1",
+            "label": "Display",
+            "name": "display",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wp-typography": "none",
+            "message": "",
+            "default_value": 0,
+            "translations": "copy_once",
+            "ui_on_text": "Yes",
+            "ui_off_text": "No",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/featured-events"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1684936657
+}

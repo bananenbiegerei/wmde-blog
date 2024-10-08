@@ -1,0 +1,13 @@
+.bb-responsive-table-block {
+	table {
+		@apply text-xs lg:text-base;
+		* {
+			@apply text-xs lg:text-base mb-0;
+		}
+		th {
+			* {
+				@apply font-medium ;
+			}
+		}
+	}
+}

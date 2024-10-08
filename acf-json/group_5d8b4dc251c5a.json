@@ -1,0 +1,118 @@
+{
+    "key": "group_5d8b4dc251c5a",
+    "title": "Post Type: Projects",
+    "fields": [
+        {
+            "key": "field_5d8de54e7ce94",
+            "label": "Meta Infos",
+            "name": "meta_infos",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Eintrag hinzufügen",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_5d8de55b7ce95",
+                    "label": "Label",
+                    "name": "label",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5d8de54e7ce94"
+                },
+                {
+                    "key": "field_5d8de5657ce96",
+                    "label": "Text",
+                    "name": "text",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "wmde",
+                    "media_upload": 0,
+                    "delay": 0,
+                    "parent_repeater": "field_5d8de54e7ce94"
+                }
+            ]
+        },
+        {
+            "key": "field_6458d82242da1",
+            "label": "Logo",
+            "name": "logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Without Logotype, main usage: dropdown menu",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wp-typography": "none",
+            "return_format": "id",
+            "library": "all",
+            "translations": "copy_once",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "projects"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1688371694
+}

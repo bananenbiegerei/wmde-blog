@@ -1,0 +1,13 @@
+{
+	"name": "acf/blockquote",
+	"title": "Blockquote",
+	"description": "Blockquote",
+	"category": "wmde-custom-blocks",
+	"icon": "format-quote",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "blockquote.php"
+	},
+	"align": "full"
+}

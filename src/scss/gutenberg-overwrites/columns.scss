@@ -1,0 +1,9 @@
+.is-layout-flex.wp-block-columns {
+	@apply gap-10 mb-0 md:mb-5 items-stretch flex flex-row lg:flex-row;
+	.wp-block-group {
+		@apply h-full;
+	}
+	.has-background {
+		@apply p-5 rounded-xl;
+	}
+}

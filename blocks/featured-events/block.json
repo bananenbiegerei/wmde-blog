@@ -1,0 +1,15 @@
+{
+	"name": "acf/featured-events",
+	"title": "Featured Events",
+	"description": "add only the featured events as list",
+	"category": "wmde-custom-blocks",
+	"icon": "calendar",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "featured-events.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

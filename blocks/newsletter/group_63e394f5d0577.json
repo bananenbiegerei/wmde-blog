@@ -1,0 +1,107 @@
+{
+    "key": "group_63e394f5d0577",
+    "title": "Block: Newsletter Registration",
+    "fields": [
+        {
+            "key": "field_63e39536d648d",
+            "label": "Heading",
+            "name": "heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_63e39572d648e",
+            "label": "Text",
+            "name": "text",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "tabs": "all",
+            "toolbar": "wmde",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_63e394f6d648c",
+            "label": "Disclaimer",
+            "name": "disclaimer",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "* Indem ich meine E-Mail-Adresse eintrage, erkläre ich mich damit einverstanden, dass Wikimedia mich aufgrund meiner Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO) per E-Mail bis auf Widerruf über Aktuelles informiert und die hierzu erforderlichen Datenverarbeitungen vornimmt. Ich kann meine Einwilligung jederzeit mit Wirkung für die Zukunft gegenüber Wikimedia widerrufen. Nähere Informationen zur Datenverarbeitung bei Wikimedia und zu meinen Rechten finde ich unter <a href=\"https:\/\/www.wikimedia.de\/datenschutz\/\">wikimedia.de\/datenschutz<\/a>.",
+            "translations": "translate",
+            "tabs": "all",
+            "toolbar": "wmde",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_63e3a8f4440e2",
+            "label": "Background Color",
+            "name": "bg_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string",
+            "translations": "copy_once"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/newsletter"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1677068508
+}

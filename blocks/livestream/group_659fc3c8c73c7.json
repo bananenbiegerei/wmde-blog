@@ -1,0 +1,154 @@
+{
+    "key": "group_659fc3c8c73c7",
+    "title": "Block: Livestream",
+    "fields": [
+        {
+            "key": "field_659fc62650336",
+            "label": "Choose Source",
+            "name": "choose_source",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "iframe": "iframe",
+                "youtube": "youtube"
+            },
+            "default_value": "iframe",
+            "return_format": "value",
+            "translations": "copy_once",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_659fc3c9d64f2",
+            "label": "Iframe For Livestream",
+            "name": "iframe_for_livestream",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_659fc62650336",
+                        "operator": "==",
+                        "value": "iframe"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_659fc68a50337",
+            "label": "Youtube Livestream",
+            "name": "youtube_livestream",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_659fc62650336",
+                        "operator": "==",
+                        "value": "youtube"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "copy_once",
+            "placeholder": ""
+        },
+        {
+            "key": "field_659fe375ead6a",
+            "label": "Has Slido",
+            "name": "has_slido",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "translations": "copy_once",
+            "ui_on_text": "Yes",
+            "ui_off_text": "No",
+            "ui": 1
+        },
+        {
+            "key": "field_659fe38bead6b",
+            "label": "Slido Iframe",
+            "name": "slido_iframe",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_659fe375ead6a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/livestream"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1704977340
+}
