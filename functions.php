@@ -11,6 +11,8 @@ require_once get_template_directory() . '/functions/localization.php';
 // Special features of theme
 require_once get_template_directory() . '/functions/features.php';
 
+require_once get_template_directory() . '/functions/custom-taxonomies.php';
+
 // Load ACF blocks
 require_once get_template_directory() . '/functions/acf-blocks.php';
 
