@@ -31,9 +31,6 @@ require_once get_template_directory() . '/functions/icons.php';
 // Excerpts
 require_once get_template_directory() . '/functions/excerpts.php';
 
-// Block converter and unsupported blocks
-//require_once get_template_directory() . '/functions/block-converter.php';
-
 // Search
 require_once get_template_directory() . '/functions/search.php';
 
