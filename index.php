@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<canvas class="fixed top-0 left-0 w-full h-screen z-30 pointer-events-none" id="confetti-canvas"></canvas>
 <h1 class="sr-only"><?= _e('News', BB_TEXT_DOMAIN) ?></h1>
 <div class="mt-20 container flex flex-col space-y-20">
     <?php

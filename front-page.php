@@ -4,7 +4,6 @@ NOTE: This implements a workaround for the pagination bug with Polylang. 'is_pag
 */
 ?>
 <?php if (is_page()): ?>
-	<canvas class="fixed top-0 left-0 w-full h-screen z-30 pointer-events-none" id="confetti-canvas"></canvas>
 	<?php get_header(); ?>
 	<?php while (have_posts()): ?>
 		<?php the_post(); ?>
