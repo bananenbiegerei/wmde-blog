@@ -22,7 +22,7 @@ $logo_small = esc_attr(get_field('logo_small', 'options') ?: get_stylesheet_dire
                 <a class="btn btn-error btn-outline"
                     href="<?php echo esc_url(get_field('link_fur_spenden', 'option')); ?>">
                     <?= bb_icon('heart', 'heartbeat icon-sm') ?>
-                    <?php _e('donate', BB_TEXT_DOMAIN); ?>
+                    <?php _e('Spenden', BB_TEXT_DOMAIN); ?>
                 </a>
             </li>
             <?php endif; ?>

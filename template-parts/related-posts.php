@@ -22,7 +22,7 @@ $related_posts = new WP_Query(array(
 ));
 
 if ($related_posts->have_posts()) : ?>
-    <h3><?php _e('Related Posts', BB_TEXT_DOMAIN); ?></h3>
+    <h3><?php _e('Verwandte Artikel', BB_TEXT_DOMAIN); ?></h3>
     <hr class="mb-5">
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
     <?php while ($related_posts->have_posts()) : $related_posts->the_post(); ?>

@@ -20,7 +20,7 @@ if (post_password_required()) {
             <div id="comment-<?php comment_ID(); ?>">
                 <?php if ($comment->comment_approved == '0'): ?>
                 <em
-                    class="block bg-warning-300 p-4 rounded"><?php _e('Your comment is awaiting moderation.', BB_TEXT_DOMAIN); ?></em>
+                    class="block bg-warning-300 p-4 rounded"><?php _e('Dein Kommentar wartet auf Moderation.', BB_TEXT_DOMAIN); ?></em>
                 <br />
                 <?php endif; ?>
                 <div class="comment-author flex gap-4 mb-4">
@@ -47,8 +47,8 @@ if (post_password_required()) {
 
     <?php if (get_comment_pages_count() > 1 && get_option('page_comments')): ?>
     <nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
-        <div class="nav-previous"><?php previous_comments_link(__('&larr; Older Comments', BB_TEXT_DOMAIN)); ?></div>
-        <div class="nav-next"><?php next_comments_link(__('Newer Comments &rarr;', BB_TEXT_DOMAIN)); ?></div>
+        <div class="nav-previous"><?php previous_comments_link(__('&larr; Ältere Kommentare', BB_TEXT_DOMAIN)); ?></div>
+        <div class="nav-next"><?php next_comments_link(__('Neuere Kommentare &rarr;', BB_TEXT_DOMAIN)); ?></div>
     </nav>
     <?php endif; ?>
 
@@ -57,7 +57,7 @@ if (post_password_required()) {
     <?php // If comments are closed and there are comments, let's leave a little note
 
 if (!comments_open() && '0' != get_comments_number() && post_type_supports(get_post_type(), 'comments')): ?>
-    <p class="no-comments"><?php _e('Comments are closed.', BB_TEXT_DOMAIN); ?></p>
+    <p class="no-comments"><?php _e('Die Kommentare sind geschlossen.', BB_TEXT_DOMAIN); ?></p>
     <?php endif; ?>
 
     <?php comment_form(); ?>

@@ -31,7 +31,7 @@ else {
     <?php get_template_part('template-parts/newsletter-signup-form-minimal'); ?>
     </div>
     <div class="md:flex-none flex justify-start xl:justify-end items-start -mx-2 lg:mx-0">
-    <a class="cli_settings_button" href="#"><?php _e('Cookie Settings', BB_TEXT_DOMAIN); ?></a>
+    <a class="cli_settings_button" href="#"><?php _e('Cookie Einstellungen', BB_TEXT_DOMAIN); ?></a>
     </div>
   </div>
   </div>
