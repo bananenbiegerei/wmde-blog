@@ -1,5 +1,7 @@
-node_modules
-css/editor.css
-css/site.css
+node_modules/
+css/
 *.map
 .DS_Store
+.nova/
+js/
+dist/
